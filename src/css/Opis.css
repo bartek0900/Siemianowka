@@ -1,0 +1,69 @@
+    .OpisBody {
+        width: 100%;
+        height: 650px;
+        position: relative;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    .OpisBodyTytul {
+        flex-direction: column;
+        height: 200px;
+        width: 600%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .OpisBodyTytul strong {
+        font-size: 32px;
+        font-weight: 700;
+        outline: rgb(58, 58, 58) none 0px;
+        vertical-align: baseline;
+        box-sizing: border-box;
+        color: rgb(58, 58, 58);
+        line-height: 44.8px;
+        text-align: center;
+        font-family: Poppins;
+        background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);
+    }
+    .OpisBodyLogo{
+        flex-direction: column;
+        height: 300px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            align-items: center;
+        margin-top: 100px;
+    }
+    .OpisBodyLogo img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    .OpisBodyTekst{
+        flex-direction: column;
+        width: 800px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    .OpisBodyTekst span{
+        font-size: 18px;
+        font-weight: 400;
+        outline: rgb(75, 79, 88) none 0px;
+        vertical-align: baseline;
+        box-sizing: border-box;
+        text-align: justify;
+        color: rgb(75, 79, 88);
+        line-height: 24.75px;
+        font-family: Poppins;
+        background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);
+
+    }

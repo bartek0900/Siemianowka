@@ -1,0 +1,113 @@
+.gallery {
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.gallery-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.images-container {
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns with equal width */
+    gap: 20px; /* Gap between grid items */
+    justify-content: center; /* Center content horizontally */
+}
+
+.image-container {
+    
+    position: relative;
+    cursor: pointer;
+}
+
+.image {
+    width: 400px; /* Ensure images fill their grid cell */
+    height: 300px; /* Maintain aspect ratio */
+    object-fit: cover; /* Maintain aspect ratio and cover container */
+    transition: transform 0.2s ease-in-out;
+    border-radius: 10%;
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
+
+.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.fullscreen .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.fullscreen .fullscreen-image {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+
+.gallery-title {
+    font-size: 120px;
+    text-transform: uppercase;
+    font-family: 'Gambetta', serif;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    color: #b89e14;
+    outline: none;
+    text-align: center;
+  }
+  
+ .gallery-title:hover {
+    font-variation-settings: "wght" 582; 
+    letter-spacing: 1px;
+  }
+  
+  .gallery-title p {
+    font-weight: 700;
+    font-size: 1.2em;
+    line-height: 150%;
+    text-align: center;
+    color: MintCream;
+    letter-spacing: .5px;
+  }

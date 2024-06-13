@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.jebac {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%; /* Adjust as needed */
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Adjust the color and opacity as needed */
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-family: 'Pacifico', cursive;
+    color: rgb(20, 70, 20);; /* Set the text color */
+
+  }
+  .delayed-component {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+  }
+  
+  .delayed-component.visible {
+    opacity: 1;
+  }
+
+

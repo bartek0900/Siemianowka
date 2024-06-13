@@ -1,0 +1,29 @@
+.carousel {
+    position: relative;
+    width: 40%;
+    height: 650px; /* Adjust height as needed */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 200px;
+}
+
+.carousel img {
+    border-radius: 20%;
+    position: absolute;
+    width: 100%; /* Ensures the image width matches the width of the carousel */
+    height: 100%; /* Ensures the image height matches the height of the carousel */
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.carousel img.active {
+    opacity: 1;
+}
+
+.carousel img.inactive {
+    opacity: 0;
+}

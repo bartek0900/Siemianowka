@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Amethysta');
+.InfoMapka {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-color: rgb(255, 247, 247);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+  .contact-container {
+    display: flex;
+width: 100%;
+    margin: 0 auto; /* Optional: Center the component horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: green;
+}
+
+.contact-item {
+    width: 33.33%; /* Each item takes up 33.33% of the container's width */
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.contact-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+.contact-item2 {
+  width: 33.33%; /* Each item takes up 33.33% of the container's width */
+  text-align: center;
+  display: flex;
+justify-content: center ;}
+
+
+.contact-item2 img {
+  flex-direction: row;
+  padding: 10px 0;
+  height: 150px;
+  width: 150px;
+  border-radius: 30px 30px 30px 30px;
+}
